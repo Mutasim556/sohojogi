@@ -1,0 +1,71 @@
+.theme-form input[type="text"],
+.theme-form input[type="email"],
+.theme-form input[type="search"],
+.theme-form input[type="password"],
+.theme-form input[type="number"],
+.theme-form input[type="tel"],
+.theme-form input[type="date"],
+.theme-form input[type="datetime-local"],
+.theme-form input[type="time"],
+.theme-form input[type="datetime-local"],
+.theme-form input[type="month"],
+.theme-form input[type="week"],
+.theme-form input[type="url"],
+.theme-form input[type="file"],
+.theme-form textarea,
+.theme-form select {
+    border-color: #7e7c7c;
+    color: #000000;
+}
+
+.login-card .login-main {
+    box-shadow: 0px 0px 10px lightgray;
+}
+#forget_password_button.disabled,
+#forget_password_button:disabled {
+    cursor: not-allowed !important;
+}
+
+
+.dataTables_wrapper .btn-group > .btn:nth-child(n + 3), .dataTables_wrapper .btn-group > :not(.btn-check) + .btn, .dataTables_wrapper .btn-group > .btn-group:not(:first-child) > .btn {
+    border-radius: 5px !important;
+    
+}
+
+.dataTables_wrapper .btn-group > .btn:not(:last-child):not(.dropdown-toggle), .dataTables_wrapper .btn-group > .btn-group:not(:last-child) > .btn {
+    border-radius: 5px !important;
+}
+
+.dataTables_wrapper .btn-group .buttons-page-length{
+    background-color: var(--bs-purple) !important;
+    border: 0px;
+}
+.dataTables_wrapper .btn-group .buttons-excel{
+    background-color: var(--bs-pink) !important;
+    border: 0px;
+}
+.dataTables_wrapper .btn-group .buttons-csv{
+    background-color: var(--bs-teal) !important;
+    border: 0px;
+}
+.dataTables_wrapper .btn-group .buttons-pdf{
+    background-color: var(--bs-gray-dark) !important;
+    border: 0px;
+}
+
+/* button.dt-button:active:not(.disabled):hover:not(.disabled), button.dt-button.active:not(.disabled):hover:not(.disabled), div.dt-button:active:not(.disabled):hover:not(.disabled), div.dt-button.active:not(.disabled):hover:not(.disabled), a.dt-button:active:not(.disabled):hover:not(.disabled), a.dt-button.active:not(.disabled):hover:not(.disabled) {
+    background-color: #c51717 !important;
+} */
+
+.dataTables_wrapper .btn-group .dropdown-menu .dropdown-item{
+    background-color: black !important;
+    font-weight: 600;
+}
+
+.dataTables_wrapper .btn-group .dropdown-menu .dropdown-item:hover{
+    color: black !important;
+    background: aqua !important;
+}
+.dataTables_wrapper .dataTables_filter input[type="search"] {
+    border-color: #7e7c7c !important;
+}
